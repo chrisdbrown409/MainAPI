@@ -1,15 +1,17 @@
-<!DOCTYPE html>
-<html>
+
+<!doctype html>
+<html lang="en-US" dir="ltr">
+
 <head>
-  <Title> "Web Services" </Title>
-
-
-<meta name="viewport" content="width=device-width, initial-scale=1">
+	<meta charset="utf-8">
+	<meta name="viewport" 		content="width=device-width, initial-scale=1.0">
+	<meta name="description" 	content="Chris Brown | Quality Assurance"> <!---Web Searches--->
+	<Title>Chris Brown | Web Services</Title>
 <style>
 .collapsible {
   	background-color: #96665a;
   	height: 10%; /*reactive*/
-	margin-left: 40px;
+	/*margin-left: 14%; controlled by main class*/
   	color: white;
   	cursor: pointer;
   	/*padding: 18px; /*non-reactive*/
@@ -28,7 +30,7 @@
 
 .collapsible:after {
 	content: '\002B'; /* Unicode character for "plus" sign (+) */
-  	margin-left: 40px;
+  	/*margin-left: 14%; controlled by main class*/
 	color: white;
   	font-weight: bold;
   	float: Right;
@@ -44,7 +46,7 @@
 .content {
   	padding: 0 18px;
 	width: 80%; 
-  	margin-left: 40px;
+  	/*margin-left: 14%; controlled by main class*/
  	max-height: 0;
   	overflow: hidden;
   	transition: max-height 0.2s ease-out;
@@ -81,6 +83,7 @@ body, html {
 }
 
 .hero-text {
+  	font-family: times,serif;
   	text-align: center;
   	position: absolute;
   	top: 50%;
@@ -102,10 +105,7 @@ body {
   	width: 12%; /*repsonsive:*15*/
 	top: 32%;
 	left: 1%;
-	/*width: 130px;*/
-	/*top: 220px;*
-  	/*left: 10px;*/
-  	background: White;
+	background: White;
   	overflow-x: hidden;
   	padding: 0px 0;
 	font-family: times,serif;
@@ -114,8 +114,7 @@ body {
 }
 
 .sidenav a {
-  	/*padding: 0px 8px 6px 16px; /*top,right,bottom, left */
-	padding: 0% 0% .5% 1.0%; /*top,right,bottom, left */
+  	padding: 0% 0% .5% 1.0%; /*top,right,bottom, left */
  	text-decoration: none;
 	text-align: Left;
 	font-family: times,serif;
@@ -130,10 +129,12 @@ body {
 
 
 .main {
-  	/*margin-left: 140px; /* Same width as the sidebar + left position in px */
-	margin-left: 11%; /* Same width as the sidebar + left position in px */ /*reponsive*/
-  	/*font-size: 28px; /* Increased text to enable scrolling */
-  	padding: 0px 10px;
+   	/*margin-left: 140px; /* Same width as the sidebar + left position in px */
+	padding: 0px 10px;
+	font-style:normal;
+	/*margin-left: 40px;*/
+	margin-left: 17%; /* Same width as the sidebar + left position in px */ /*reponsive*/
+	font-family: times,serif;
 }
 
 @media screen and (max-height: 450px) {
@@ -148,7 +149,7 @@ cite {
  footer {
 	/*position: Fixed; this makes it sticky always at the bottom of the page*/
 	/*margin-left: 40px;*/
-	margin-left: 4%; /*reponsive*/
+	/*margin-left: 4%; controlled by main class*/
 	width: 100%;
 	padding: 0px 0px 10px 0px; /*top,right,bottom, left */
 	left: 0;
@@ -164,19 +165,11 @@ cite {
 </style>
 </head>
 
-  
-  
-  
-  
-  
-  
-  
-  
  <body>
 
 <div class="hero-image">
   <div class="hero-text">
-    <h3 style="font-size:25px">Web Services</h3>
+    <h1 style="font-size:25px">Web Services</h1>
   </div>
 </div>
 <HR>
@@ -184,28 +177,25 @@ cite {
   
   
 <div class="sidenav">
-    	<p style="font-family: times, serif; font-size:12pt; text-align: left; font-style:normal"> <U>Links</U><br /></P>
-    	<a href="https://chrisdbrown409.github.io/MainPage/">Home</a><br />
-    	<a href="https://github.com/chrisdbrown409">GIT Hub Root</a><br />
-    	<a href="https://github.com/chrisdbrown409/MainWebServices/blob/main/index.html">GIT Hub Repository</a><br />
-    	<a href = mailto:chrisdbrown409@gmail.com>Email Author</a><br />
-    	<a href="https://www.linkedin.com/in/chrisbrown72/">Author's Profile</a><br />
-	    <!--- LinkedIn Profile: <a href="https://www.linkedin.com/in/chrisbrown72/" target="_blank">https://www.linkedin.com/in/chrisbrown72/</a><br /> --->
-    </div>
+    		<p style="font-size:12pt;"><U>Links</U></P>
+    		<a href="https://chrisdbrown409.github.io/MainPage/">Home</a><br />
+    		<a href="https://github.com/chrisdbrown409">GIT Hub Root</a><br />
+    		<a href="https://github.com/chrisdbrown409/MainWebServices/blob/main/index.html">GIT Hub Repository</a><br />
+    		<a href = mailto:chrisdbrown409@gmail.com>Email Author</a><br />
+    		<a href="https://www.linkedin.com/in/chrisbrown72/">Author's Profile</a><br />
+	 </div>
   
 <div class="main">
 	<div>
-	<p style="font-family: times, serif; font-size:14pt; font-style:normal; margin-left: 40px;">
-	Web Services<br />
-	</p>
-	<p style="font-family: times,serif; font-size:12pt; font-style:normal; margin-left: 40px;"> 
+		<h2 style="font-size:14pt;">Web Services</h2>
+		<p style="font-family: times,serif; font-size:12pt; font-style:normal; margin-left: 40px;"> 
 	Webservices and APIs functions are somewhat different.<br /> 
 	</p>
 	<p style="font-family: times,serif; font-size:12pt; font-style:normal; margin-left: 60px;">
 	"An API is an interface that allows you to build on the data and functionality of another application, while a web service is a network-based resource that fulfills a specific task. Yes, there’s overlap between the two: all web services are APIs, but not all APIs are web services.
 Both web services and APIs are — at their core — very useful and very much used today. However, it’s the web services associated with SOAP and/or Service Oriented Architecture which are falling out of favor."&nbsp<cite><a href=https://nordicapis.com/what-is-the-difference-between-web-services-and-apis">Nordic APIs</a></cite>
 	</p>
-	<p style="font-family: times,serif; font-size:12pt; font-style:normal; margin-left: 40px;">
+	<p>
 	Each section expands and explores the topics within the section.<br />
 	</p>
 </div>
